@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+/*logo部分*/
+#top{margin:0 auto; width:1000px;}
+#logo img{ height：150px; width:300px;}
+#logo #searchform{display:inline; margin-left:150px; }
+#logo #searchin{border:2px solid #F963F8; width:200px; height:40px; position:absolute; top:80px; left:600px;}
+#logo #search{border:2px solid #F963F8; background:#F963F8; width:50px; height:40px; color:#FFF7EA;font-size:20px;position:absolute; top:80px; left:800px;}
+#logo span.desc{ display:block; float:right;color:#A590DB; text-decoration: underline; }
+#menu{ list-style:none; float:left; position:absolute; top:120px; left:300px;}
+#menu li{float:left; height:60px; width:100px; background:#FAD9E2; border-bottom:8px solid #A590DB; margin-left:30px; line-height:60px; text-align:center;
+        border-radius:30px;
+}
+#menu li a{ text-decoration:none;}
+#menu li:hover{background:#F4CEE3; border-bottom:8px solid #832EA2;}
+
+/* 内容部分 */
+#content{margin-top:100px; margin-left:150px;}
+#content .left{width:200px; height:400px;background:#FFF7EA;float:left;}
+#content .left .h2_gb{width:200px; height:50px;background:#F963F8; color:#FFF7EA; text-align:center;line-height:50px; margin:0}
+#content .left .line{border-bottom:3px groove orange;}
+#content .left .leftul{list-style:url("../images/li2.png")}
+#content .left .leftul li{width:150px; height:30px; line-height:30px;  border-bottom:2px dotted #F7C729}
+#content .left .leftul li a:link{text-decoration:none;color:#F963F8;font-weight:bold;}
+#content .left .leftul li a:hover{font-size:20px;color:#FFF7EA; display:block; width:150px;background:#F963F8;height:40px; line-height:40px;}
+#content .hrline{height: 5px;background-color: #F963F8;border: 0px;}
+#content .right{width:906px;height:400px;float:left;}
+#content .right #box{height:240px; width:220px;margin-left: 50px;float:left;}
+#content .right #box img{height:240px; width:220px;}
+#content .right img.cartp{height:50px; width:50px;}
+#content .right .prod_det_box {width: 295px;float: left;padding: 0 0 0 25px;position: relative;}
+#content .right .special_icon{position: absolute;top: 0px;right: 2px;z-index: 250;}
+#content .right .box_top { width: 295px; height: 9px;background: url(../images/box_top.gif) no-repeat center bottom;}
+#content .right .box_center {width: 295px;height: auto; background: url(../images/box_center.gif) repeat-y center;}
+.prod_title {
+    color: #42b1e5;
+    padding: 5px 0 0 15px;
+    font-size: 13px;
+    width: 295px;
+}
+p.details {
+	padding: 5px 15px;
+    font-size: 11px;
+    text-indent:30px;
+	line-height: 19px;
+}
+a.more {
+    font-style: italic;
+    color: #42b1e5;
+    float: right;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 0px 15px 0 0;
+}
+#content .right .box_bottom { width: 295px;height: 9px; background: url(../images/box_bottom.gif) no-repeat center top;}
+#content .right .tb{text-align:center; border:1px solid grey;}
+#content .right .tb td{ border:1px solid green; width:230px;}
+#content .right .tb td img{width:220px;height:240px;}
+#content .right table.imagetable {font-size:20px;color:#333333;border-width: 1px;border-color: #999999;border-collapse: collapse;}
+#content .right table.imagetable th {background:#b5cfd2 url('../images/cell-blue.jpg');border-width:padding: 8px;border-style: solid;border-color: #999999;}
+#content .right table.imagetable td {background:#dcddc0 url('../images/cell-grey.jpg');border-width:border-style: solid;border-color: #999999;}
+#content .right div{float:left;}
+#content .right form {float:right;}
+#content .right span#totalprice{ color:green; font-size:25px;}
+/*用户注册*/
+#content .register{ margin-left:100px; width:600px ; text-align:left}
+#content .register h2{text-align:center}
+#content .register table.regisTb th{width:100px}
+#content .register .desc{width:150px ; color:red}
+#content .register .instyle{ border:1px solid ;border-radius:6px; height:30px; line-height:30px  ; margin-bottom:3px; color:grey;}
+/*购物 数量框*/
+.count{width:90px;}
+.count .add, .count input, .count .reduce{float:left;margin-right:-1px;position:relative;z-index:0;}
+.count .add, .count .reduce{height:23px;width:17px;border:1px solid #e5e5e5;background:#f0f0f0;text-align:center;line-height:23px;color:#444;}
+.count .add:hover, .count .reduce:hover{color:#f50;z-index:3;border-color:#f60;cursor:pointer;}
+.count input{width:50px;height:23px;line-height:23px;border:1px solid #aaa;color:#343434;text-align:center;padding:4px 0;background-color:#fff;z-index:2;}

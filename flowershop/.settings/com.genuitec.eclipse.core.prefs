@@ -1,0 +1,4 @@
+#Tue Jun 21 15:48:42 CST 2016
+eclipse.preferences.version=1
+validator.Checked=WebRoot/customer/register.jsp,WebRoot/customer/updatepassword.jsp,WebRoot/customer/login.jsp,WebRoot/customer/flower.jsp,WebRoot/customer/updateDetail.jsp,WebRoot/customer/shopping_cart.jsp
+validator.Unchecked=
